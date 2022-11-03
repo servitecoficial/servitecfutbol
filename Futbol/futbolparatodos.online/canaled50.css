@@ -1,0 +1,415 @@
+body {
+    background: rgba(59,26,98,0) url(wp-content/uploads/2021/03/paso-a-deportista-profesion.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+	margin: 0px;
+}
+ h1 {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../futbolparatodos.net/wp-content/uploads/2018/06/playmini.png);
+    margin: 0;
+    border: 1px solid #000;
+    background-color: #513571;
+    text-decoration: none;
+    display: block;
+    margin-top: 0px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 2.1em;
+	FONT-FAMILY: system-ui;
+}
+h4 {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../futbolparatodos.net/wp-content/uploads/2018/06/playmini.png);
+    margin: 0;
+    border: 1px solid #000;
+    background-color: #5f69b1;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-size: 1.3em;
+    letter-spacing: -1px;
+    margin-bottom: 1px;
+    font-weight: 600;
+    line-height: 2.3em;
+}
+h1 a:hover {
+	display: block;
+    background-color: #33363b;
+    border-color: #fff;
+    color: #fff!important;
+}
+h1 a:visited {
+	display: block;
+    background-color: #33363b;
+    border-color: #fff;
+    color: #fff!important;
+}
+h1 a:active {
+	display: block;
+    background-color: #33363b;
+    border-color: #fff;
+    color: #fff!important;
+}
+a {
+display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+.page-title h1, .page-title h2, .page-title h4 {
+    color: #fff;
+    background-color: #FFFFFF;
+    border: none;
+    margin: 0px;
+}
+.hu-pad {
+    padding: 10px 10px 5px;
+}
+.opciones {
+    background-color: #015788;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    /* border: 0 solid #000; */
+    margin: 0 10px 0;
+    color: #fff;
+}
+.ads {
+    margin-top: 10px;
+}
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.embed-responsive-16by9::before {
+    padding-top: 56.25%;
+}
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+.columncontenido {
+    float: left;
+    width: 60%;
+}
+.columnsidebar {
+    float: left;
+    width: 20%;
+    padding: 1px;
+}
+.columnsidebarderecha {
+  display: block;
+    float: left;
+    width: 20%;
+    padding: 0px;
+}  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 900px) {
+    .columncontenido {
+        width: 100%;
+    }
+  	.columnsidebar {
+        width: 100%;
+      	display: block;
+    }
+    .columnsidebarderecha {
+        width: 100%;
+      	display: block;
+    }
+}
+@media screen and (max-width: 900px) {
+  	.ads {
+       	width: 100%;
+      	display: none;
+    }
+	.teatro {
+      	display: none;
+    }
+}
+.twitch {
+	border: none;
+    height: 100vh;
+    }  
+@media screen and (max-width: 900px) {
+  	.twitch {
+       	height: 70vh;
+    }
+}    
+#credit {
+    color: #fff;
+    color: rgba(255,255,255,.5);
+    font-size: .9375em;
+    line-height: 1.5em;
+	    display: none;
+}
+.boton {
+    background-color: #192b55;
+    width: 100%;
+    padding: 1px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    border: 0px;
+}
+.single .post-title {
+	font-size: 2.2em;
+	font-family: Arial,Helvetica,sans-serif;
+	    font-kerning: normal;
+    font-weight: 800;
+    letter-spacing: -.03em;
+}
+.post-nav {
+	    display: none;
+}
+.page-title {
+	    display: none;
+}
+.container-inner>.main::after, .container-inner>.main::before {
+    background-color: #f0f0f000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: 0;
+}
+.container-inner>.main::after, .container-inner>.main::before {
+	    background-color: #f0f0f000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: 0;
+}
+.container-inner>.main:after, .container-inner>.main:before {
+	    background-color: #f0f0f000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: 0;
+}
+.container-inner>.main:after, .container-inner>.main:before {
+	    background-color: #f0f0f000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: 0;
+}
+.container-inner>.main:after, .container-inner>.main:before {
+	    background-color: #f0f0f000;
+    */position: absolute;
+    top: 0;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: 0;
+}
+#header {
+    background-color: transparent;
+}
+.main {
+    background-color: transparent!important;
+    width: 100%;
+}
+#page .container-inner {
+    background: transparent;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+#nav-header.nav-container, #main-header-search .search-expand {
+    background-color: #000000;
+}
+.canales {
+    background-color: #fff;
+    padding: 17px;
+}
+#header #nav-mobile {
+    background-color: transparent;
+}
+#header .hu-pad {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.site-title {
+    width: 100%;
+	  padding: 0px 0 10px;
+}
+@ font-face { 
+	familia de fuentes: 'myWebFont' ;
+	font-display: intercambio ;
+	src: url ( 'myfont.woff2' ) formato ( 'woff2' );
+}
+.sidebar .sidebar-content, .sidebar .sidebar-toggle {
+    background: #ffffff;
+}
+.widget, .widget a {
+    color: #000;
+}
+.rss_header {
+        display: none;
+}
+.sidebar .sidebar-content, .sidebar .sidebar-toggle {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.widget, .widget a {
+    color: #ffffff;
+}
+.rss_content {
+    color: #cdc9c9;
+}
+@media only screen and (max-width: 479px)
+.sidebar[class*=s] 
+.sidebar {
+   background-color: rgba(0, 0, 0, 0.1);
+}
+#header {
+    padding-bottom: 0px;
+}
+#page {
+    padding-bottom: 60px;
+    margin-top: 0px;
+}
+ins {
+background-color: transparent;
+}
+.entry ins {
+background-color: transparent;
+}
+.post-title {
+    color: #fff!important;;
+    margin-bottom: 10px;
+    font-size: 1.375em;
+    font-weight: 400;
+    line-height: 1.5em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.example_responsive_1 { width: 100%; height: 100px; }
+@media(min-width: 500px) { .example_responsive_1 { width: 100%; height: 60px; } }
+@media(min-width: 800px) { .example_responsive_1 { width: 100%; height: 90px; } }
+
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.blanco {
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+    color: #404040;
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  .boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+display: block;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(../superligafutbol.com/wp-content/uploads/2020/10/11.html);
+}
+  .boton_personalizado:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+text-decoration:none
+  }
+#bottom-welcome-note a, .comment-body a, .widget_text a, article .entry a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+.post-body {
+    color: #ffffff;
+}
+.button{
+    background-color: #513571;
+    border: none;
+    float: right;
+    border-radius: 6px!important;
+    font-size: 16px!important;
+    font-weight: 600!important;
+	position: absolute;
+    top: 0px;
+	color: #fff;
+	cursor: pointer;
+}
